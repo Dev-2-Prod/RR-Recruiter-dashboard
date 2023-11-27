@@ -1,0 +1,11 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="logout">
+<rect id="Logout" width="32" height="32" fill="url(#pattern0)"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_8_363" transform="scale(0.0416667)"/>
+</pattern>
+<image id="image0_8_363" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABH0lEQVRIie2TMU6EQBiF388wewM3MXF7CzyDhZp4AQ8AGUjYA+2EZcIFvIAxbuEZpLCnMXoDIIyFi9mQQcjA2ujXzeTxHi88gH8GoMODUuoWQArgzNKvABAJIR7aC6cj2E4wB4DV3uMb1yCAEIJggVJKtx4t3QazMykgTdNYSrk8SoBSak1EG8757qcQ6wDHce611i8AvMVi8ZwkyemsAUEQfNR1fQ0g11qfM8YeTbruiozs1zGEZ7o8+opGNej7L6SUS875Dl9vn8PQwrpBlmUnrus+AfCI6JUxdmPSWQc0TXNHRBcA8rIsL33ff5s1QAix0Vqvq6q6iuP4vU836hv0EYahHNL8+ooKAKuRu++jODx0G0RdgYV5NOH5v8gnvP5P9wUckAgAAAAASUVORK5CYII="/>
+</defs>
+</svg>

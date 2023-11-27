@@ -1,0 +1,1034 @@
+.candidates-applied-for {
+    position: absolute;
+    top: 20px;
+    left: 184px;
+    font-weight: 500;
+  }
+  .group-child {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    border-radius: 50%;
+    background-color: #47acb1;
+    width: 12px;
+    height: 12px;
+  }
+  .ellipse-parent,
+  .qa-tester {
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  .ellipse-parent {
+    left: 0;
+    width: 85px;
+    height: 21px;
+    text-align: center;
+  }
+  .group-item {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    border-radius: 50%;
+    background-color: #851d41;
+    width: 12px;
+    height: 12px;
+  }
+  .ellipse-group,
+  .group-inner {
+    position: absolute;
+    top: 33px;
+    left: 0;
+    width: 121px;
+    height: 21px;
+  }
+  .group-inner {
+    top: 4px;
+    border-radius: 50%;
+    background-color: #dd5e89;
+    width: 12px;
+    height: 12px;
+  }
+  .ellipse-container,
+  .ellipse-div {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    width: 158px;
+    height: 21px;
+  }
+  .ellipse-div {
+    top: 4px;
+    border-radius: 50%;
+    background-color: #cdab04;
+    width: 12px;
+    height: 12px;
+  }
+  .group-child1,
+  .group-div {
+    position: absolute;
+    top: 99px;
+    left: 0;
+    width: 155px;
+    height: 21px;
+  }
+  .group-child1 {
+    top: 4px;
+    border-radius: 50%;
+    background-color: #f27a22;
+    width: 12px;
+    height: 12px;
+  }
+  .ellipse-parent1,
+  .group-child2 {
+    position: absolute;
+    top: 132px;
+    left: 0;
+    width: 116px;
+    height: 21px;
+  }
+  .group-child2 {
+    top: 4px;
+    border-radius: 50%;
+    background-color: #004854;
+    width: 12px;
+    height: 12px;
+  }
+  .ellipse-parent2 {
+    position: absolute;
+    top: 165px;
+    left: 0;
+    width: 97px;
+    height: 21px;
+  }
+  .cirlcles-icon,
+  .description {
+    position: absolute;
+    top: 66px;
+    left: 359px;
+    width: 158px;
+    height: 186px;
+  }
+  .cirlcles-icon {
+    top: 0;
+    left: 0;
+    width: 319px;
+    height: 319px;
+  }
+  .div,
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    position: absolute;
+    top: 83px;
+    left: 202px;
+    font-weight: 500;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    top: 121px;
+    left: 56px;
+  }
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    top: 234px;
+    left: 109px;
+  }
+  .div3,
+  .div4,
+  .div5 {
+    left: 191px;
+  }
+  .div4,
+  .div5 {
+    top: 221px;
+    left: 224px;
+  }
+  .div5 {
+    top: 200px;
+    left: 242px;
+  }
+  .graph,
+  .graphdescription {
+    position: absolute;
+    height: 319px;
+  }
+  .graph {
+    top: 0;
+    left: 0;
+    width: 319px;
+    font-size: 12px;
+    color: #fff;
+  }
+  .graphdescription {
+    top: 68px;
+    left: 70px;
+    width: 517px;
+    text-align: left;
+    color: #222327;
+  }
+  .graph-4 {
+    position: absolute;
+    bottom: 3px;
+    left: calc(50% + 115px);
+    background-color: #fff;
+    width: 656px;
+    height: 455px;
+    overflow: hidden;
+    color: #000;
+  }
+  .graph-3-child,
+  .graph-3-item {
+    position: absolute;
+    top: 283px;
+    left: 129px;
+    background-color: #efefef;
+    width: 501px;
+    height: 87px;
+  }
+  .graph-3-item {
+    top: 128px;
+  }
+  .degrees-child {
+    position: absolute;
+    top: -0.5px;
+    left: 87.5px;
+    border-right: 1px solid rgba(156, 156, 156, 0.38);
+    box-sizing: border-box;
+    width: 1px;
+    height: 353px;
+  }
+  .degrees-child1,
+  .degrees-child2,
+  .degrees-child3,
+  .degrees-inner,
+  .degrees-item,
+  .line-div {
+    position: absolute;
+    top: 58.5px;
+    left: 67.8px;
+    border-top: 1px solid rgba(156, 156, 156, 0.38);
+    box-sizing: border-box;
+    width: 21.7px;
+    height: 1px;
+  }
+  .degrees-child1,
+  .degrees-child2,
+  .degrees-child3,
+  .degrees-inner,
+  .line-div {
+    top: -0.5px;
+  }
+  .degrees-child1,
+  .degrees-child2,
+  .degrees-child3,
+  .line-div {
+    top: 136.5px;
+  }
+  .degrees-child1,
+  .degrees-child2,
+  .degrees-child3 {
+    top: 214.5px;
+  }
+  .degrees-child2,
+  .degrees-child3 {
+    top: 292.5px;
+  }
+  .degrees-child3 {
+    top: 351.5px;
+  }
+  .div6 {
+    position: absolute;
+    top: 343px;
+    left: 46.3px;
+    font-weight: 500;
+    display: inline-block;
+    width: 11px;
+  }
+  .associate,
+  .bachelors,
+  .doctoral,
+  .masters {
+    position: absolute;
+    top: 284px;
+    left: 0;
+    font-weight: 500;
+  }
+  .bachelors,
+  .doctoral,
+  .masters {
+    top: 206px;
+  }
+  .doctoral,
+  .masters {
+    top: 128px;
+    left: 9px;
+  }
+  .doctoral {
+    top: 50px;
+    left: 8px;
+  }
+  .degrees {
+    position: absolute;
+    top: 33px;
+    left: 41px;
+    width: 89px;
+    height: 361px;
+    color: #000;
+  }
+  .graph-3-child1,
+  .graph-3-inner {
+    position: absolute;
+    top: 32.5px;
+    left: 179.5px;
+    border-right: 1px solid rgba(156, 156, 156, 0.38);
+    box-sizing: border-box;
+    width: 1px;
+    height: 353px;
+  }
+  .graph-3-child1 {
+    left: 229.5px;
+  }
+  .graph-3-child2,
+  .graph-3-child3,
+  .graph-3-child4,
+  .graph-3-child5,
+  .graph-3-child6,
+  .graph-3-child7,
+  .graph-3-child8,
+  .graph-3-child9 {
+    position: absolute;
+    top: 32.5px;
+    left: 279.5px;
+    border-right: 1px solid rgba(156, 156, 156, 0.38);
+    box-sizing: border-box;
+    width: 1px;
+    height: 353px;
+  }
+  .graph-3-child3,
+  .graph-3-child4,
+  .graph-3-child5,
+  .graph-3-child6,
+  .graph-3-child7,
+  .graph-3-child8,
+  .graph-3-child9 {
+    left: 329.5px;
+  }
+  .graph-3-child4,
+  .graph-3-child5,
+  .graph-3-child6,
+  .graph-3-child7,
+  .graph-3-child8,
+  .graph-3-child9 {
+    left: 379.5px;
+  }
+  .graph-3-child5,
+  .graph-3-child6,
+  .graph-3-child7,
+  .graph-3-child8,
+  .graph-3-child9 {
+    left: 429.5px;
+  }
+  .graph-3-child6,
+  .graph-3-child7,
+  .graph-3-child8,
+  .graph-3-child9 {
+    left: 479.5px;
+  }
+  .graph-3-child7,
+  .graph-3-child8,
+  .graph-3-child9 {
+    left: 529.5px;
+  }
+  .graph-3-child8,
+  .graph-3-child9 {
+    left: 579.5px;
+  }
+  .graph-3-child9 {
+    left: 629.5px;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 300px;
+    left: 129px;
+    background-color: #1270b0;
+    width: 151px;
+    height: 54px;
+  }
+  .div7,
+  .div8,
+  .div9 {
+    position: absolute;
+    top: 393px;
+    left: 168px;
+    font-weight: 500;
+  }
+  .div8,
+  .div9 {
+    left: 218px;
+  }
+  .div9 {
+    left: 268px;
+  }
+  .div10,
+  .div11,
+  .div12,
+  .div13,
+  .div14,
+  .div15,
+  .div16 {
+    position: absolute;
+    top: 393px;
+    left: 318px;
+    font-weight: 500;
+  }
+  .div11,
+  .div12,
+  .div13,
+  .div14,
+  .div15,
+  .div16 {
+    left: 366px;
+  }
+  .div12,
+  .div13,
+  .div14,
+  .div15,
+  .div16 {
+    left: 416px;
+  }
+  .div13,
+  .div14,
+  .div15,
+  .div16 {
+    left: 466px;
+  }
+  .div14,
+  .div15,
+  .div16 {
+    left: 516px;
+  }
+  .div15,
+  .div16 {
+    left: 566px;
+  }
+  .div16 {
+    left: 614px;
+  }
+  .graph-3-child10,
+  .graph-3-child11,
+  .graph-3-child12 {
+    position: absolute;
+    top: 222px;
+    left: 130px;
+    background-color: #1270b0;
+    width: 326px;
+    height: 54px;
+  }
+  .graph-3-child11,
+  .graph-3-child12 {
+    top: 144px;
+    left: 129px;
+    width: 273px;
+  }
+  .graph-3-child12 {
+    top: 67px;
+    width: 79px;
+  }
+  .div17,
+  .div18,
+  .div19,
+  .div20 {
+    position: absolute;
+    top: 84px;
+    left: 216px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .div18,
+  .div19,
+  .div20 {
+    top: 162px;
+    left: 411px;
+  }
+  .div19,
+  .div20 {
+    top: 238px;
+    left: 464px;
+  }
+  .div20 {
+    top: 318px;
+    left: 289px;
+  }
+  .candidates,
+  .candidates-by-degree,
+  .degrees1 {
+    position: absolute;
+    top: 427px;
+    left: 287px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+  }
+  .candidates-by-degree,
+  .degrees1 {
+    top: 5px;
+    left: 249px;
+  }
+  .degrees1 {
+    top: 257px;
+    left: 10px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+  }
+  .graph-3 {
+    position: absolute;
+    bottom: 3px;
+    left: calc(50% - 771px);
+    background-color: #fff;
+    width: 656px;
+    height: 455px;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .match-child {
+    position: absolute;
+    top: 8.5px;
+    left: 71.5px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 332px;
+  }
+  .match-child1,
+  .match-child2,
+  .match-child3,
+  .match-child4,
+  .match-inner,
+  .match-item {
+    position: absolute;
+    top: 8.5px;
+    left: 50.8px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 21.7px;
+    height: 1px;
+  }
+  .match-child1,
+  .match-child2,
+  .match-child3,
+  .match-child4,
+  .match-inner {
+    top: 76.5px;
+    left: 51.8px;
+  }
+  .match-child1,
+  .match-child2,
+  .match-child3,
+  .match-child4 {
+    top: 144.5px;
+  }
+  .match-child2,
+  .match-child3,
+  .match-child4 {
+    top: 212.5px;
+  }
+  .match-child3,
+  .match-child4 {
+    top: 280.5px;
+  }
+  .match-child4 {
+    top: 339.5px;
+  }
+  .div21 {
+    top: 331px;
+    left: 30.3px;
+    font-weight: 500;
+    display: inline-block;
+    width: 11px;
+  }
+  .div21,
+  .div22,
+  .div23 {
+    position: absolute;
+  }
+  .div22 {
+    top: 272px;
+    left: 6.9px;
+    font-weight: 500;
+    display: inline-block;
+    width: 34.4px;
+  }
+  .div23 {
+    top: 204px;
+  }
+  .div23,
+  .div24,
+  .div25 {
+    left: 6.9px;
+    font-weight: 500;
+    display: inline-block;
+    width: 34.4px;
+  }
+  .div24 {
+    position: absolute;
+    top: 136px;
+  }
+  .div25 {
+    top: 68px;
+  }
+  .div25,
+  .div26,
+  .match {
+    position: absolute;
+  }
+  .div26 {
+    top: 0;
+    left: 0;
+    font-weight: 500;
+    display: inline-block;
+    width: 41.3px;
+  }
+  .match {
+    top: 23px;
+    left: 54px;
+    width: 73px;
+    height: 349px;
+    color: #000;
+  }
+  .yoe-child {
+    position: absolute;
+    top: 0.5px;
+    left: 3.5px;
+    border-top: 1px solid #000;
+    box-sizing: border-box;
+    width: 422px;
+    height: 1px;
+  }
+  .yoe-child1,
+  .yoe-child2,
+  .yoe-child3,
+  .yoe-child4,
+  .yoe-child5,
+  .yoe-inner,
+  .yoe-item {
+    position: absolute;
+    top: 0.5px;
+    left: 3.5px;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 1px;
+    height: 16px;
+  }
+  .yoe-child1,
+  .yoe-child2,
+  .yoe-child3,
+  .yoe-child4,
+  .yoe-child5,
+  .yoe-inner {
+    top: -0.5px;
+    left: 73.5px;
+  }
+  .yoe-child1,
+  .yoe-child2,
+  .yoe-child3,
+  .yoe-child4,
+  .yoe-child5 {
+    left: 143.5px;
+  }
+  .yoe-child2,
+  .yoe-child3,
+  .yoe-child4,
+  .yoe-child5 {
+    left: 213.5px;
+  }
+  .yoe-child3,
+  .yoe-child4,
+  .yoe-child5 {
+    left: 283.5px;
+  }
+  .yoe-child4,
+  .yoe-child5 {
+    left: 353.5px;
+  }
+  .yoe-child5 {
+    left: 423.5px;
+  }
+  .div27,
+  .div28 {
+    font-weight: 500;
+  }
+  .div27 {
+    position: absolute;
+    top: 24px;
+    left: 0;
+  }
+  .div28 {
+    top: 23px;
+    left: 139px;
+  }
+  .div28,
+  .div29,
+  .div30 {
+    position: absolute;
+  }
+  .div29 {
+    top: 23px;
+    left: 209px;
+    font-weight: 500;
+  }
+  .div30 {
+    left: 280px;
+  }
+  .div30,
+  .div31,
+  .div32 {
+    top: 23px;
+    font-weight: 500;
+  }
+  .div31 {
+    position: absolute;
+    left: 348px;
+  }
+  .div32 {
+    left: 419px;
+  }
+  .div32,
+  .div33,
+  .yoe {
+    position: absolute;
+  }
+  .div33 {
+    top: 24px;
+    left: 70px;
+    font-weight: 500;
+  }
+  .yoe {
+    top: 374px;
+    left: 150px;
+    width: 430px;
+    height: 42px;
+    color: #000;
+  }
+  .match1,
+  .years-of-experience {
+    position: absolute;
+    top: 418px;
+    left: 251px;
+    font-weight: 500;
+  }
+  .match1 {
+    top: 253px;
+    left: 20px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+  }
+  .bars-child,
+  .bars-item {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    background-color: #1270b0;
+    width: 24px;
+    height: 140px;
+  }
+  .bars-item {
+    top: 107px;
+    left: 24px;
+    height: 118px;
+  }
+  .bars-child1,
+  .bars-child2,
+  .bars-child3,
+  .bars-child4,
+  .bars-inner {
+    position: absolute;
+    top: 6px;
+    left: 48px;
+    background-color: #1270b0;
+    width: 24px;
+    height: 219px;
+  }
+  .bars-child1,
+  .bars-child2,
+  .bars-child3,
+  .bars-child4 {
+    top: 73px;
+    left: 72px;
+    height: 152px;
+  }
+  .bars-child2,
+  .bars-child3,
+  .bars-child4 {
+    top: 0;
+    left: 96px;
+    height: 225px;
+  }
+  .bars-child3,
+  .bars-child4 {
+    top: 58px;
+    left: 120px;
+    height: 167px;
+  }
+  .bars-child4 {
+    top: 157px;
+    left: 144px;
+    height: 68px;
+  }
+  .bars-child5,
+  .bars-child6,
+  .bars-child7,
+  .bars-child8,
+  .bars-child9 {
+    position: absolute;
+    top: 51px;
+    left: 168px;
+    background-color: #1270b0;
+    width: 24px;
+    height: 174px;
+  }
+  .bars-child6,
+  .bars-child7,
+  .bars-child8,
+  .bars-child9 {
+    top: 216px;
+    left: 192px;
+    height: 9px;
+  }
+  .bars-child7,
+  .bars-child8,
+  .bars-child9 {
+    top: 115px;
+    left: 216px;
+    height: 110px;
+  }
+  .bars-child8,
+  .bars-child9 {
+    top: 157px;
+    left: 240px;
+    height: 68px;
+  }
+  .bars-child9 {
+    top: 79px;
+    left: 264px;
+    height: 146px;
+  }
+  .bars-child10,
+  .bars-child11,
+  .bars-child12,
+  .bars-child13 {
+    position: absolute;
+    top: 137px;
+    left: 288px;
+    background-color: #1270b0;
+    width: 24px;
+    height: 88px;
+  }
+  .bars-child11,
+  .bars-child12,
+  .bars-child13 {
+    top: 170px;
+    left: 312px;
+    height: 55px;
+  }
+  .bars-child12,
+  .bars-child13 {
+    top: 216px;
+    left: 336px;
+    height: 9px;
+  }
+  .bars-child13 {
+    top: 175px;
+    left: 360px;
+    height: 50px;
+  }
+  .bars {
+    position: absolute;
+    top: 138px;
+    left: 176px;
+    width: 384px;
+    height: 225px;
+  }
+  .sort-by-yoe {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-weight: 500;
+  }
+  .sort-down-icon {
+    top: 0;
+    left: 83px;
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+  }
+  .graph-2,
+  .sort,
+  .sort-down-icon {
+    position: absolute;
+  }
+  .sort {
+    top: 20px;
+    left: 521px;
+    width: 111px;
+    height: 28px;
+    font-size: 14px;
+    font-family: Inter;
+  }
+  .graph-2 {
+    top: 0;
+    left: calc(50% + 115px);
+    background-color: #fff;
+    width: 656px;
+    height: 455px;
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .screenshot-2023-03-24-at-856,
+  .sort-down-icon1 {
+    position: absolute;
+    top: 103px;
+    left: 17px;
+    width: 343px;
+    height: 248px;
+    object-fit: cover;
+  }
+  .sort-down-icon1 {
+    top: 0;
+    left: 79px;
+    width: 28px;
+    height: 28px;
+  }
+  .last7days {
+    top: 403px;
+    left: 24px;
+    width: 107px;
+  }
+  .country,
+  .last7days,
+  .sort-down-icon2 {
+    position: absolute;
+    height: 28px;
+  }
+  .sort-down-icon2 {
+    top: 0;
+    left: 57px;
+    width: 28px;
+    object-fit: cover;
+  }
+  .country {
+    top: 24px;
+    left: 147px;
+    width: 85px;
+  }
+  .candidates1,
+  .country2 {
+    position: absolute;
+    top: 86px;
+    left: 384px;
+    font-weight: 500;
+    color: #9c9c9c;
+  }
+  .candidates1 {
+    left: 542px;
+  }
+  .candidates2 {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 107px;
+    height: 28px;
+  }
+  .graph-1-child,
+  .graph-1-inner,
+  .graph-1-item {
+    position: absolute;
+    top: 110.5px;
+    left: 377.5px;
+    border-top: 1px solid #9c9c9c;
+    box-sizing: border-box;
+    width: 266px;
+    height: 1px;
+  }
+  .graph-1-inner,
+  .graph-1-item {
+    top: 143.5px;
+  }
+  .graph-1-inner {
+    top: 176.5px;
+  }
+  .div34,
+  .united-states1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 500;
+  }
+  .div34 {
+    left: 231px;
+    text-align: right;
+  }
+  .united-states {
+    position: absolute;
+    top: 119px;
+    left: 384px;
+    width: 250px;
+    height: 17px;
+  }
+  .div35 {
+    position: absolute;
+    top: 0;
+    left: 225px;
+    font-weight: 500;
+    text-align: right;
+  }
+  .canada,
+  .india {
+    position: absolute;
+    top: 152px;
+    left: 384px;
+    width: 250px;
+    height: 17px;
+    text-align: left;
+  }
+  .canada {
+    top: 185px;
+  }
+  .blue-indian-flag-hover {
+    position: absolute;
+    top: 224px;
+    left: 263px;
+    width: 6px;
+    height: 6px;
+    overflow: hidden;
+  }
+  .graph-1,
+  .main1 {
+    background-color: #fff;
+  }
+  .graph-1 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 771px);
+    width: 656px;
+    height: 455px;
+    overflow: hidden;
+    font-family: Inter;
+  }
+  .main1 {
+    position: relative;
+    width: 100%;
+    height: 938px;
+    text-align: center;
+    font-size: 14px;
+    color: #222327;
+    font-family: Poppins;
+  }
+  
