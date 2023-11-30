@@ -11,16 +11,13 @@ import Addjob from "./pages/AddJobPage/AddJob";
 import Candidates from "./pages/CandidatesPage/Candidates";
 import Jobs from "./pages/JobsPage/Jobs";
 import Analytics from "./pages/AnalyticsPage/Analytics";
-// import Billing from "./pages/BillingPage/Billing_final";
-import Billing1 from "./pages/BillingPage/BillingHistory";
 import BillingPreferences from "./pages/BillingPage/BillingPreferences";
-import Billing2 from "./pages/BillingPage/BillingOverview";
-import Billing3 from "./pages/BillingPage/BillingPayment";
 import BillingOverview from "./pages/BillingPage/BillingOverview";
 import BillingHistory from "./pages/BillingPage/BillingHistory";
 import BillingPayment from "./pages/BillingPage/BillingPayment";
 import TeamSetting from "./pages/SettingPage/Team_setting";
 import WorkflowSetting from "./pages/SettingPage/Workflow_setting";
+import ViewAllJobMatchCandidates from "./pages/JobsPage/ViewAllJobMatchCandidates";
 
 function App() {
   // const action = useNavigationType();
@@ -64,10 +61,19 @@ function App() {
       <Route exact path="/add-job" element={<Addjob />} />
       <Route exact path="/candidates" element={<Candidates />} />
       <Route exact path="/jobs" element={<Jobs />} />
+      <Route
+        exact
+        path="/jobs-project-manager"
+        element={<ViewAllJobMatchCandidates />}
+      />
       <Route exact path="/analytics" element={<Analytics />} />
       <Route exact path="/billing" element={<BillingOverview />} />
       <Route exact path="/billinghistory" element={<BillingHistory />} />
-      <Route exact path="/billingpreferences" element={<BillingPreferences />}/>
+      <Route
+        exact
+        path="/billingpreferences"
+        element={<BillingPreferences />}
+      />
       <Route exact path="/billingpayment" element={<BillingPayment />} />
       <Route exact path="/settingteam" element={<TeamSetting />} />
       <Route exact path="/settingworkflow" element={<WorkflowSetting />} />

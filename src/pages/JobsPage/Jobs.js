@@ -7,6 +7,7 @@ import { SideBar1 } from "../Sidebar1";
 import { useCallback, useState } from "react";
 import PortalPopup from "./JobsComponent/PortalPopup";
 import JobFilterBy from "./JobsComponent/JobFilterBy";
+import { useNavigate } from "react-router-dom";
 
 import "./Main2.css";
 
@@ -70,6 +71,11 @@ const Jobs = () => {
     setJobFilterByOpen(false);
   }, []);
 
+  const navigate = useNavigate();
+
+  const onProjectManagerTextClick = useCallback(() => {
+    navigate("/jobs-project-manager");
+  }, [navigate]);
 
   return (
     <DashboardRoot>
@@ -180,7 +186,12 @@ const Jobs = () => {
               <div className="div48">3.</div>
             </div>
             <div className="project-manager-parent">
-              <div className="project-manager1">Project Manager</div>
+              <div
+                className="project-manager1"
+                onClick={onProjectManagerTextClick}
+              >
+                Project Manager
+              </div>
               <div className="job-match-frame">
                 <div className="cancelled">Job-match</div>
               </div>
@@ -216,7 +227,11 @@ const Jobs = () => {
               <div className="total-candidates">Total candidates</div>
             </div>
           </div>
-          <div className="filters" onClick={openJobFilterBy} style={{cursor: "pointer"}}>
+          <div
+            className="filters"
+            onClick={openJobFilterBy}
+            style={{ cursor: "pointer" }}
+          >
             <div className="material-symbolsfilter-alt-ou-parent">
               <img
                 className="material-symbolsfilter-alt-ou-icon"
@@ -247,14 +262,14 @@ const Jobs = () => {
           </div>
         </div>
         {isJobFilterByOpen && (
-        <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
-          onOutsideClick={closeJobFilterBy}
-        >
-          <JobFilterBy onClose={closeJobFilterBy} />
-        </PortalPopup>
-      )}
+          <PortalPopup
+            overlayColor="rgba(113, 113, 113, 0.3)"
+            placement="Centered"
+            onOutsideClick={closeJobFilterBy}
+          >
+            <JobFilterBy onClose={closeJobFilterBy} />
+          </PortalPopup>
+        )}
       </Main>
       <ProfileHeader clickedTab={"Jobs"} />
 
