@@ -19,6 +19,8 @@ import Billing3 from "./pages/BillingPage/BillingPayment";
 import BillingOverview from "./pages/BillingPage/BillingOverview";
 import BillingHistory from "./pages/BillingPage/BillingHistory";
 import BillingPayment from "./pages/BillingPage/BillingPayment";
+import TeamSetting from "./pages/SettingPage/Team_setting";
+import WorkflowSetting from "./pages/SettingPage/Workflow_setting";
 
 function App() {
   // const action = useNavigationType();
@@ -67,6 +69,8 @@ function App() {
       <Route exact path="/billinghistory" element={<BillingHistory />} />
       <Route exact path="/billingpreferences" element={<BillingPreferences />}/>
       <Route exact path="/billingpayment" element={<BillingPayment />} />
+      <Route exact path="/settingteam" element={<TeamSetting />} />
+      <Route exact path="/settingworkflow" element={<WorkflowSetting />} />
     </Routes>
   );
 }

@@ -81,7 +81,7 @@ const SideBar1 = (props) => {
     },
     {
       label: "Settings",
-      to: "/settings",
+      to: "/settingteam",
       icon: (
         <Img
           className="h-[17px] w-[25px]"
