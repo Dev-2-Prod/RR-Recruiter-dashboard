@@ -1499,6 +1499,7 @@ const AddJob = () => {
                 width: "718px",
                 height: "67px",
                 color: "#fff",
+                cursor: "pointer",
               }}
               onClick={onSaveAndContinueContainerClick}
             >
