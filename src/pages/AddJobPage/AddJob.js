@@ -4,6 +4,9 @@ import styled from "styled-components";
 import ProfileHeader from "../ProfileHeader";
 import { SideBar1 } from "../Sidebar1";
 // import { ProfileHeader1 } from "../ProfileHeader1";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useCallback } from "react";
 
 const DiagramIcon = styled.img`
   position: absolute;
@@ -1148,58 +1151,6 @@ const Sidebar1 = styled.div`
   font-size: var(--font-size-lg);
   color: var(--color-lightslategray);
 `;
-// const Headername = styled.div`
-//   position: absolute;
-//   top: 37px;
-//   left: 57px;
-//   display: flex;
-//   flex-direction: row;
-//   align-items: center;
-//   justify-content: center;
-// `;
-// const NotificationChild = styled.div`
-//   position: relative;
-//   border-radius: 50%;
-//   background-color: var(--color-whitesmoke-200);
-//   width: 50px;
-//   height: 50px;
-//   z-index: 0;
-// `;
-// const Notification1Icon = styled.img`
-//   position: absolute;
-//   margin: 0 !important;
-//   top: 12px;
-//   left: 13px;
-//   width: 25px;
-//   height: 25px;
-//   overflow: hidden;
-//   flex-shrink: 0;
-//   z-index: 1;
-// `;
-// const Notification1 = styled.div`
-//   position: absolute;
-//   top: 12px;
-//   left: 0px;
-//   display: flex;
-//   flex-direction: row;
-//   align-items: flex-start;
-//   justify-content: flex-start;
-//   gap: var(--gap-3xs);
-// `;
-// const ProfileIcon = styled.img`
-//   position: absolute;
-//   top: 0px;
-//   left: 100px;
-//   width: 74px;
-//   height: 74px;
-// `;
-// const Rightheader = styled.div`
-//   position: absolute;
-//   top: 13px;
-//   right: 33px;
-//   width: 174px;
-//   height: 74px;
-// `;
 const Profileheader1 = styled.div`
   position: absolute;
   width: calc(100% - 284px);
@@ -1242,6 +1193,20 @@ const AddJob = () => {
   // const handleCloseCalendar = () => {
   //   setShowCalendar(false);
   // };
+
+  const navigate = useNavigate();
+
+  const onDropDownclick = useCallback(() => {
+    navigate("/uploadjd");
+  }, [navigate]);
+
+  const handleDropdownChange = (event) => {
+    const selectedOption = event.target.value;
+
+    if (selectedOption === 'uploadJD') {
+      navigate('/uploadjd');
+    }
+  };
 
   return (
     <DashboardRoot>
@@ -1804,6 +1769,7 @@ const AddJob = () => {
               fontSize: "16px",
             }}
           >
+            
             <div
               style={{
                 position: "absolute",
@@ -1812,25 +1778,24 @@ const AddJob = () => {
                 fontWeight: "500",
               }}
             >
-              Fill JD
-            </div>
-            <img
+              <select className="dropdown-select" onChange={handleDropdownChange} 
               style={{
-                position: "absolute",
-                height: "20.94%",
-                width: "8.54%",
-                top: "39.84%",
-                right: "7%",
-                bottom: "39.22%",
-                left: "84.46%",
-                maxWidth: "100%",
-                overflow: "hidden",
-                maxHeight: "100%",
-                opacity: "0.8",
-              }}
-              alt=""
-              src="/chevron.svg"
-            />
+                justifyContent: 'center',
+                display: 'flex',
+                alignItems: 'center',
+                position: 'relative',
+                fontSize: '30px',
+                left: '32px',
+                top: '-5px',
+                border: 'none',
+                fontWeight: '500',
+                fontFamily: 'Inter',
+              }}>
+              <option value="fillJD" >Fill JD</option>
+              <option value="uploadJD" >Upload JD</option>
+            </select>
+            </div>
+            
           </div>
           
         </div>
