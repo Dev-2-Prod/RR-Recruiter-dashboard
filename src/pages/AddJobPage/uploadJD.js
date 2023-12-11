@@ -27,7 +27,7 @@ const ChooseFolderWrapper = styled.div`
 const DragFilesTo = styled.div`
   position: absolute;
   top: 251px;
-  left: 111px;
+  left: 155px;
 `;
 const TableruploadIcon = styled.img`
   position: absolute;

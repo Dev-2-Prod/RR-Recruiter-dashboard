@@ -121,7 +121,7 @@ const Frontend = styled.div`
   border: 1px solid var(--color-silver);
   box-sizing: border-box;
   width: 574px;
-  height: 281px;
+  height: 281px;  
 `;
 const DiagramIcon1 = styled.img`
   position: absolute;
@@ -1208,6 +1208,10 @@ const AddJob = () => {
     }
   };
 
+  const onSaveAndContinueContainerClick = useCallback(() => {
+    navigate("/afteruploadorfilljd");
+  }, [navigate]);
+
   return (
     <DashboardRoot>
       <Main>
@@ -1496,6 +1500,7 @@ const AddJob = () => {
                 height: "67px",
                 color: "#fff",
               }}
+              onClick={onSaveAndContinueContainerClick}
             >
               <div
                 style={{

@@ -19,6 +19,7 @@ import TeamSetting from "./pages/SettingPage/Team_setting";
 import WorkflowSetting from "./pages/SettingPage/Workflow_setting";
 import ViewAllJobMatchCandidates from "./pages/JobsPage/ViewAllJobMatchCandidates";
 import Uploadjd from "./pages/AddJobPage/uploadJD";
+import AfterUplaodOrFillJD from "./pages/AddJobPage/AfterUplaodOrFillJD";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route exact path="/" element={<Dashboard />} />
       <Route exact path="/add-job" element={<Addjob />} />
       <Route exact path="/uploadjd" element={<Uploadjd />} />
+      <Route exact path="//afteruploadorfilljd" element={<AfterUplaodOrFillJD />} />
       <Route exact path="/candidates" element={<Candidates />} />
       <Route exact path="/jobs" element={<Jobs />} />
       <Route exact path="/jobs-project-manager" element={<ViewAllJobMatchCandidates />} />
