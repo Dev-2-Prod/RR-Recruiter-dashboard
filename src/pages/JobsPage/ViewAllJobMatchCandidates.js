@@ -5,6 +5,7 @@ import BackgroundCheck from "./JobsComponent/BackgroundCheck";
 import styled from "styled-components";
 import ProfileHeader from "../ProfileHeader";
 import { SideBar1 } from "../Sidebar1";
+import { useNavigate } from "react-router-dom";
 
 const Div1 = styled.div`
   position: absolute;
@@ -276,6 +277,7 @@ const MaterialSymbolsarrowBackRoIcon = styled.img`
   width: 32px;
   height: 32px;
   overflow: hidden;
+  cursor: pointer;
 `;
 const ProjectManager = styled.div`
   position: absolute;
@@ -289,7 +291,7 @@ const Projectmanager1 = styled.div`
   left: 0px;
   width: 258px;
   height: 36px;
-`;
+  `;
 const Published = styled.div`
   position: relative;
   font-weight: 500;
@@ -519,6 +521,9 @@ position: relative;
 `;
 
 const ViewAllJobMatchCandidates = () => {
+
+  const navigator=useNavigate();
+
   const [isFeedbackOpen, setFeedbackOpen] = useState(false);
   const [isBackgroundCheckOpen, setBackgroundCheckOpen] = useState(false);
 
@@ -537,6 +542,10 @@ const ViewAllJobMatchCandidates = () => {
   const closeBackgroundCheck = useCallback(() => {
     setBackgroundCheckOpen(false);
   }, []);
+
+  const handleBack=()=>{
+    navigator('/jobs');
+  }
 
   return (
     <>
@@ -744,6 +753,7 @@ const ViewAllJobMatchCandidates = () => {
                 <MaterialSymbolsarrowBackRoIcon
                   alt=""
                   src="/materialsymbolsarrowbackrounded.svg"
+                  onClick={handleBack}
                 />
                 <ProjectManager>Project Manager</ProjectManager>
               </Projectmanager1>
