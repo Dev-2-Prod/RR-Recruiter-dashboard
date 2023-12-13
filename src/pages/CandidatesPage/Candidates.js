@@ -882,7 +882,7 @@ const Candidates = () => {
         </Headings>
       </Container>
       <ProjectLists>Project lists</ProjectLists>
-      <Scrollbar />
+      {/* <Scrollbar /> */}
       <Pages>
         <Next>
           <Next1>Next</Next1>
