@@ -1,11 +1,9 @@
 import styled from "styled-components";
 import BasicDateRangeCalendar from "../../components/Calendar";
-import LeftSidebar from "./Sidebar";
+// import LeftSidebar from "./Sidebar";
 import ProfileHeader from "../ProfileHeader";
 import { SideBar1 } from "../Sidebar1";
 // import { ProfileHeader1 } from "../ProfileHeader1";
-
-
 
 const DiagramIcon = styled.img`
   position: absolute;
@@ -93,7 +91,7 @@ const Title = styled.div`
   width: 309px;
   height: 30px;
   font-size: var(--font-size-xl);
-  color: var(--color-gray-100);
+  color: rgba(0, 0, 0, 0.6);
 `;
 const FrontendSoftwareDeveloper = styled.div`
   position: absolute;
@@ -168,7 +166,7 @@ const Title1 = styled.div`
   width: 214px;
   height: 30px;
   font-size: var(--font-size-xl);
-  color: var(--color-gray-100);
+  color: rgba(0, 0, 0, 0.6);
 `;
 const UxuiDesigner = styled.div`
   position: absolute;
@@ -255,7 +253,7 @@ const Title3 = styled.div`
   width: 170px;
   height: 30px;
   font-size: var(--font-size-xl);
-  color: var(--color-gray-100);
+  color: rgba(0, 0, 0, 0.6);
 `;
 const SvgSpinners3DotsMoveIcon3 = styled.img`
   position: absolute;
@@ -290,7 +288,7 @@ const OngoingJobs = styled.div`
   font-size: 24px;
   font-weight: 600;
   font-family: var(--font-inter);
-  color: var(--color-gray-200);
+  color: rgba(0, 0, 0, 0.6);
 `;
 const Ongoingjobs = styled.div`
   position: absolute;
@@ -418,8 +416,8 @@ const Container1 = styled.div`
   position: absolute;
   top: 58px;
   left: calc(50% - 771px);
-  border-radius: 12px;
-  box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.08);
+  // border-radius: 12px;
+  // box-shadow: 0px 4px 4px rgba(156, 156, 156, 0.08);
   width: 1542px;
   height: 259px;
   overflow: hidden;
@@ -458,7 +456,7 @@ const Main = styled.div`
   overflow: scroll;
   overflow-x: hidden;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -474,28 +472,26 @@ const DashboardRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
-  color: var(--color-gray-100);
+  color: rgba(0, 0, 0, 0.6);
   font-family: var(--font-inter);
   zoom: 75%;
   overflow: hidden;
 }
 `;
 
-
 const Dashboard = () => {
+  // const [showCalendar, setShowCalendar] = useState(false);
 
-    // const [showCalendar, setShowCalendar] = useState(false);
-  
-    // const handleRadioClick = () => {
-    //   setShowCalendar(true);
-    // };
-  
-    // const handleCloseCalendar = () => {
-    //   setShowCalendar(false);
-    // };
+  // const handleRadioClick = () => {
+  //   setShowCalendar(true);
+  // };
+
+  // const handleCloseCalendar = () => {
+  //   setShowCalendar(false);
+  // };
 
   return (
     <DashboardRoot>
@@ -642,12 +638,14 @@ const Dashboard = () => {
               30 Days
             </label>
             <label class="Time-Selection">
-              <input type="radio" name="radio" 
-              // onClick={handleRadioClick}
+              <input
+                type="radio"
+                name="radio"
+                // onClick={handleRadioClick}
               />
               Custom
             </label>
-            
+
             {/* {showCalendar && (
         <div>
           <BasicDateRangeCalendar />
@@ -661,10 +659,9 @@ const Dashboard = () => {
         </Greetings>
         {/* <Scrollbar /> */}
       </Main>
-      <ProfileHeader clickedTab={"Dashboard"}/>
-      
-      <SideBar1 clickedTab={"Dashboard"}/>
-      
+      <ProfileHeader clickedTab={"Dashboard"} />
+
+      <SideBar1 clickedTab={"Dashboard"} />
     </DashboardRoot>
   );
 };

@@ -17,7 +17,7 @@ const JobdescriptionPreviewRoot = styled.div`
   max-height: 100%;
   overflow-y: scroll;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;

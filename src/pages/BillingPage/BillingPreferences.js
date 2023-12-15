@@ -317,7 +317,7 @@ const Maincontainer = styled.div`
   right: 50px;
   left: 328px;
   background-color: var(--color-white);
-  height: 930px;
+  height: 100%;
   font-size: var(--font-size-xl);
   color: var(--color-darkgray);
 `;
@@ -325,7 +325,7 @@ const BillingRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-100);

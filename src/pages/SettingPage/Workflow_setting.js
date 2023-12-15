@@ -790,7 +790,7 @@ const Maincontainer = styled.div`
   overflow: scroll;
 //   overflow-x: hidden;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -814,7 +814,7 @@ const Sidediv = styled.div`
   overflow: scroll;
   overflow-x: hidden;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;

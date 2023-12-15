@@ -20,7 +20,7 @@ const Main = styled.div`
   overflow: scroll;
   overflow-x: hidden;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -36,7 +36,7 @@ const DashboardRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-100);

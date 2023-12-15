@@ -148,14 +148,14 @@ const Maincontainer = styled.div`
   left: 328px;
   border-radius: var(--br-mini);
   background-color: var(--color-white);
-  height: 930px;
+  height: 100%;
   color: var(--color-dodgerblue);
 `;
 const BillingRoot = styled.div`
 position: fixed;
 background-color: #f5f7fa;
 width: 100%;
-height: 1080px;
+height: 100%;
 text-align: left;
 font-size: var(--font-size-sm);
 color: var(--color-gray-100);

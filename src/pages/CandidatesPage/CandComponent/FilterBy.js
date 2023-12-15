@@ -129,7 +129,7 @@ const DesignationParent = styled.div`
   left: 35px;
   width: 187px;
   height: 456px;
-  font-size: 20px;
+  font-size: 19px;
   color: #222327;
 `;
 const SearchCityState = styled.div`
@@ -179,7 +179,7 @@ const FrameContainer = styled.div`
   position: absolute;
   top: 54px;
   left: 0px;
-  width: 93px;
+  width: 103px;
   height: 24px;
 `;
 const GroupDiv = styled.div`
@@ -330,10 +330,12 @@ const FilterByRoot = styled.div`
   max-width: 100%;
   max-height: 100%;
   text-align: left;
-  font-size: 16px;
+  font-size: 19px;
   color: #000;
   font-family: Inter;
-  position: relative; 
+  position: relative;
+  zoom: 70%; 
+  font-size: 16px;
 `;
 
 const FilterBy = () => {
@@ -379,12 +381,18 @@ const FilterBy = () => {
         </SearchCityStateCountryWrapper>
         <GroupParent>
           <FrameGroup>
-            <GroupChild />
-            <Afghanistan>Afghanistan</Afghanistan>
+            {/* <GroupChild /> */}
+            {/* <label class="Country-selection"> */}
+              <input type="radio" name="radio" />
+              Afghanistan
+            {/* </label> */}
+            {/* <Afghanistan>Afghanistan</Afghanistan> */}
           </FrameGroup>
           <FrameContainer>
-            <GroupChild />
-            <Afghanistan>Albania</Afghanistan>
+          <input type="radio" name="radio" />
+              Afghanistan
+            {/* <GroupChild />
+            <Afghanistan>Albania</Afghanistan> */}
           </FrameContainer>
           <GroupDiv>
             <GroupChild />
@@ -463,7 +471,8 @@ const FilterBy = () => {
       {isResumePopupOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
+          // placement="TopCenter"
+          style={{ top: "0px", left: "0px" }}
           onOutsideClick={closeResumePopup}
         >
           <ResumePopup onClose={closeResumePopup} />

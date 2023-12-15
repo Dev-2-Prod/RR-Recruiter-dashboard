@@ -162,7 +162,7 @@ const SideBar1 = (props) => {
   const SidebarRoot = styled.div`
     background-color: var(--color-white);
     width: 278px;
-    height: 1080px;
+    height: 100%;
     position: absolute;
     top: 0px;
     overflow: hidden;
@@ -261,7 +261,7 @@ const SideBar1 = (props) => {
             key={menu1.id}
             style={{
               position: "relative",
-              top: "380px",
+              top: "50vh",
               padding: "10px 22px 10px 22px",
               display: "flex",
               gap: "0px",

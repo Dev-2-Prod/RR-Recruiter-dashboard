@@ -500,7 +500,7 @@ const Maincontainer = styled.div`
   border-radius: var(--br-mini);
   background-color: var(--color-white);
   width: 1542px;
-  height: 930px;
+  height: 100%
   font-size: var(--font-size-base);
   color: var(--color-darkslateblue-100);
 `;

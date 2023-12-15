@@ -24,6 +24,7 @@ export default createGlobalStyle`
 --color-darkslateblue: #314ca3;
 --color-gray-100: rgba(0, 0, 0, 0.6);
 --color-gray-200: rgba(0, 0, 0, 0.5);
+--color-gray-300: rgba(0, 0, 0, 0.4);
 --color-dodgerblue: #438ffe;
 --color-silver: rgba(184, 184, 184, 0.4);
 --color-dimgray: #605e5c;

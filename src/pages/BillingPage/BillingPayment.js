@@ -219,17 +219,17 @@ const Maincontainer = styled.div`
   left: 328px;
   border-radius: var(--br-mini);
   background-color: var(--color-white);
-      font-size: var(--font-size-base);
+  font-size: var(--font-size-base);
 
-  width: 1592px;
-  height: 930px;
+  width: 100%;
+  height: 100%;
   text-align: center;
 `;
 const BillingRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-100);
@@ -355,7 +355,6 @@ const BillingPayment = () => {
           </FrameParent>
         </FrameDiv>
       </Maincontainer>
-      
     </BillingRoot>
   );
 };

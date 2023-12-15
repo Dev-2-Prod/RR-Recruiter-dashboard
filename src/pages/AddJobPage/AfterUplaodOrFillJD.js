@@ -488,7 +488,7 @@ const Main1 = styled.div`
   font-family: var(--font-poppins);
   overflow-y: scroll;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -502,7 +502,7 @@ const AfteruplaodOrFilljdRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-100);
@@ -535,8 +535,8 @@ const AfterUplaodOrFillJD = () => {
   return (
     <>
       <AfteruplaodOrFilljdRoot>
-        <SideBar1 clickedTab={"Add Job"}/>
-        <ProfileHeader clickedTab={"Create A Job Post"}/>
+        <SideBar1 clickedTab={"Add Job"} />
+        <ProfileHeader clickedTab={"Create A Job Post"} />
         <Main1>
           <Jobdetails>
             <JobDetails>Job Details</JobDetails>

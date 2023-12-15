@@ -52,7 +52,7 @@ const MainChild = styled.div`
   position: absolute;
   top: 98.5px;
   left: 46.5px;
-  border-top: 1px solid var(--color-darkgray);
+  // border-top: 1px solid var(--color-darkgray);
   box-sizing: border-box;
   width: 1576px;
   height: 1px;
@@ -163,7 +163,7 @@ const MainRoot = styled.div`
   overflow: scroll;
   overflow-x: hidden;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -178,7 +178,7 @@ const DashboardRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-100);
@@ -190,38 +190,40 @@ const DashboardRoot = styled.div`
 const Uploadjd = () => {
   return (
     <DashboardRoot>
-    <MainRoot>
-      <ChooseFolderWrapper>
-        <ChooseFolder>Choose folder</ChooseFolder>
-      </ChooseFolderWrapper>
-      <DragFilesToUploadParent>
-        <DragFilesTo>Drag files to upload</DragFilesTo>
-        <TableruploadIcon alt="" src="/tablerupload.svg" />
-      </DragFilesToUploadParent>
-      <MainChild />
-      <Uploading>Uploading</Uploading>
-      <Uploadbar>
-        <Upload>
-          <ProjectManagerJddoc>Project manager JD.doc 32MB</ProjectManagerJddoc>
-          <Percentagebar>
-            <PercentagebarChild />
-            <PercentagebarItem />
-          </Percentagebar>
-          <Uploadpercentage>
-            <ProjectManagerJddoc>37% completed</ProjectManagerJddoc>
-            <Kbsec>90KB/sec</Kbsec>
-          </Uploadpercentage>
-        </Upload>
-        <HappyFileIcon alt="" src="/happy-file@2x.png" />
-      </Uploadbar>
-      <Fileupload>
-        <FileUpload>File Upload</FileUpload>
-        <MdiarrowLeftIcon alt="" src="/mdiarrowleft.svg" />
-      </Fileupload>
-    </MainRoot>
-    <ProfileHeader clickedTab={"Create A Job Post"} />
+      <MainRoot>
+        <ChooseFolderWrapper>
+          <ChooseFolder>Choose folder</ChooseFolder>
+        </ChooseFolderWrapper>
+        <DragFilesToUploadParent>
+          <DragFilesTo>Drag files to upload</DragFilesTo>
+          <TableruploadIcon alt="" src="/tablerupload.svg" />
+        </DragFilesToUploadParent>
+        <MainChild />
+        <Uploading>Uploading</Uploading>
+        <Uploadbar>
+          <Upload>
+            <ProjectManagerJddoc>
+              Project manager JD.doc 32MB
+            </ProjectManagerJddoc>
+            <Percentagebar>
+              <PercentagebarChild />
+              <PercentagebarItem />
+            </Percentagebar>
+            <Uploadpercentage>
+              <ProjectManagerJddoc>37% completed</ProjectManagerJddoc>
+              <Kbsec>90KB/sec</Kbsec>
+            </Uploadpercentage>
+          </Upload>
+          <HappyFileIcon alt="" src="/happy-file@2x.png" />
+        </Uploadbar>
+        <Fileupload>
+          <FileUpload>File Upload</FileUpload>
+          <MdiarrowLeftIcon alt="" src="/mdiarrowleft.svg" />
+        </Fileupload>
+      </MainRoot>
+      <ProfileHeader clickedTab={"Create A Job Post"} />
 
-    <SideBar1 clickedTab={"Add Job"} />
+      <SideBar1 clickedTab={"Add Job"} />
     </DashboardRoot>
   );
 };

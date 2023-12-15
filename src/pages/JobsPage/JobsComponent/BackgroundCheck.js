@@ -84,7 +84,7 @@ const BackgroundCheckRoot = styled.div`
   color: var(--color-black);
   font-family: var(--font-poppins);
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;

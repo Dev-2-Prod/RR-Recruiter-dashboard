@@ -121,7 +121,7 @@ const Frontend = styled.div`
   border: 1px solid var(--color-silver);
   box-sizing: border-box;
   width: 574px;
-  height: 281px;  
+  height: 281px;
 `;
 const DiagramIcon1 = styled.img`
   position: absolute;
@@ -514,7 +514,7 @@ const Main = styled.div`
   overflow: scroll;
   overflow-x: hidden;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -788,7 +788,7 @@ const DashboardRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-100);
@@ -1167,7 +1167,7 @@ const AddJobRoot = styled.div`
   position: relative;
   background-color: var(--color-whitesmoke-100);
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-5xl);
   color: var(--color-gray-100);
@@ -1203,8 +1203,8 @@ const AddJob = () => {
   const handleDropdownChange = (event) => {
     const selectedOption = event.target.value;
 
-    if (selectedOption === 'uploadJD') {
-      navigate('/uploadjd');
+    if (selectedOption === "uploadJD") {
+      navigate("/uploadjd");
     }
   };
 
@@ -1233,7 +1233,7 @@ const AddJob = () => {
               top: "193px",
               left: "calc(50% - 449px)",
               borderRadius: "15px",
-              border: "1px solid rgba(0, 0, 0, 0.5)",
+              border: "1px solid silver",
               boxSizing: "border-box",
               width: "952px",
               height: "1429px",
@@ -1256,7 +1256,7 @@ const AddJob = () => {
                   left: "-1px",
                   borderRadius: "4px",
                   backgroundColor: "#fff",
-                  border: "1px solid #605e5c",
+                  border: "1px solid silver",
                   boxSizing: "border-box",
                   width: "720px",
                   height: "69px",
@@ -1308,7 +1308,7 @@ const AddJob = () => {
                   left: "-1px",
                   borderRadius: "4px",
                   backgroundColor: "#fff",
-                  border: "1px solid #605e5c",
+                  border: "1px solid silver",
                   boxSizing: "border-box",
                   width: "720px",
                   height: "69px",
@@ -1360,7 +1360,7 @@ const AddJob = () => {
                   left: "-1px",
                   borderRadius: "4px",
                   backgroundColor: "#fff",
-                  border: "1px solid #605e5c",
+                  border: "1px solid silver",
                   boxSizing: "border-box",
                   width: "720px",
                   height: "69px",
@@ -1412,7 +1412,7 @@ const AddJob = () => {
                   left: "-1px",
                   borderRadius: "4px",
                   backgroundColor: "#fff",
-                  border: "1px solid #605e5c",
+                  border: "1px solid silver",
                   boxSizing: "border-box",
                   width: "720px",
                   height: "69px",
@@ -1542,7 +1542,7 @@ const AddJob = () => {
                   left: "-1px",
                   borderRadius: "4px",
                   backgroundColor: "#fff",
-                  border: "1px solid #605e5c",
+                  border: "1px solid silver",
                   boxSizing: "border-box",
                   width: "720px",
                   height: "282px",
@@ -1775,7 +1775,6 @@ const AddJob = () => {
               fontSize: "16px",
             }}
           >
-            
             <div
               style={{
                 position: "absolute",
@@ -1784,26 +1783,27 @@ const AddJob = () => {
                 fontWeight: "500",
               }}
             >
-              <select className="dropdown-select" onChange={handleDropdownChange} 
-              style={{
-                justifyContent: 'center',
-                display: 'flex',
-                alignItems: 'center',
-                position: 'relative',
-                fontSize: '30px',
-                left: '32px',
-                top: '-5px',
-                border: 'none',
-                fontWeight: '500',
-                fontFamily: 'Inter',
-              }}>
-              <option value="fillJD" >Fill JD</option>
-              <option value="uploadJD" >Upload JD</option>
-            </select>
+              <select
+                className="dropdown-select"
+                onChange={handleDropdownChange}
+                style={{
+                  justifyContent: "center",
+                  display: "flex",
+                  alignItems: "center",
+                  position: "relative",
+                  fontSize: "30px",
+                  left: "32px",
+                  top: "-5px",
+                  border: "none",
+                  fontWeight: "500",
+                  fontFamily: "Inter",
+                }}
+              >
+                <option value="fillJD">Fill JD</option>
+                <option value="uploadJD">Upload JD</option>
+              </select>
             </div>
-            
           </div>
-          
         </div>
       </Main>
       <ProfileHeader clickedTab={"Create A Job Post"} />

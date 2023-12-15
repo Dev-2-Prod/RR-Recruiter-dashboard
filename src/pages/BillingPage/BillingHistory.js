@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { SideBar1 } from "../Sidebar1";
 import ProfileHeader from "../ProfileHeader";
 
-
 const ShowingInvoicesWithin = styled.div`
   position: absolute;
   top: calc(50% - 11.5px);
@@ -265,14 +264,14 @@ const Maincontainer = styled.div`
   left: 328px;
   border-radius: var(--br-mini);
   background-color: var(--color-white);
-  height: 930px;
+  height: 100%;
   color: var(--color-black);
 `;
 const BillingRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-100);
@@ -332,7 +331,7 @@ const BillingHistory = () => {
     <BillingRoot>
       <SideBar1 clickedTab={"Billing"} />
       <ProfileHeader clickedTab={"Billing"} />
-      
+
       <Maincontainer>
         <UploadYourFilesBelow>
           <ShowingInvoicesWithin>

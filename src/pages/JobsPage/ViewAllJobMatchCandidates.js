@@ -41,7 +41,7 @@ const PercentageChild = styled.div`
   top: 0px;
   left: 0px;
   border-radius: 50%;
-  background-color: #53C22B;
+  background-color: #53c22b;
   width: 36px;
   height: 36px;
 `;
@@ -472,7 +472,7 @@ const Main = styled.div`
   font-family: var(--font-poppins);
   overflow-y: scroll;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -486,7 +486,7 @@ const ViewAllJobMatchCandidatesRoot = styled.div`
   position: fixed;
   background-color: #f5f7fa;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-100);
@@ -507,7 +507,7 @@ position: relative;
   font-family: var(--font-poppins);
   overflow-y: scroll;
   ::-webkit-scrollbar {
-    width: 20px;
+    width: 7px;
   }
   ::-webkit-scrollbar-track {
     border-radius: 10px;
@@ -546,183 +546,183 @@ const ViewAllJobMatchCandidates = () => {
         <SideBar1 clickedTab={"Jobs"} />
         <Main>
           <Mainscrolldiv>
-          <Parent7>
-            <Div1>1.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Applied>Applied</Applied>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <Initiate>Initiate</Initiate>
-          </Parent7>
-          <Parent6>
-            <Div1>2.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Screened>Screened</Screened>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <DoneView3 onClick={openBackgroundCheck}>
-              <Done>{`Done, `}</Done>
-              <View>view</View>
-            </DoneView3>
-          </Parent6>
-          <Parent5>
-            <Div1>3.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Interviewed>Interviewed</Interviewed>
-            <Interview>Rejected</Interview>
-            <Div4>80</Div4>
-            <DoneView>
-              <Done>{`Done, `}</Done>
-              <View>view</View>
-            </DoneView>
-          </Parent5>
-          <Parent4>
-            <Div1>4.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Offered>Offered</Offered>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <DoneView>
-              <Done>{`Done, `}</Done>
-              <View>view</View>
-            </DoneView>
-          </Parent4>
-          <Parent3>
-            <Div1>5.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Hired>Hired</Hired>
-            <Feedback1 onClick={openFeedback}>Feedback</Feedback1>
-            <Div4>80</Div4>
-            <DoneView>
-              <Done>{`Done, `}</Done>
-              <View>view</View>
-            </DoneView>
-          </Parent3>
-          <Parent2>
-            <Div1>6.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Applied>Applied</Applied>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <Initiate>Initiate</Initiate>
-          </Parent2>
-          <Parent11>
-            <Div1>7.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Applied>Applied</Applied>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <Initiate>Initiate</Initiate>
-          </Parent11>
-          <Parent1>
-            <Div1>8.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Applied>Applied</Applied>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <Initiate>Initiate</Initiate>
-          </Parent1>
-          <Group>
-            <Div1>9.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Applied>Applied</Applied>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <Initiate>Initiate</Initiate>
-          </Group>
-          <Container>
-            <Div1>10.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Applied>Applied</Applied>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <Initiate>Initiate</Initiate>
-          </Container>
-          <FrameDiv>
-            <Div1>11.</Div1>
-            <AlbertFlores>Albert Flores</AlbertFlores>
-            <Albertfabccom>albert.f@abc.com</Albertfabccom>
-            <Div2>9783647292</Div2>
-            <Percentage>
-              <PercentageChild />
-              <PercentageItem />
-              <Div3>80%</Div3>
-            </Percentage>
-            <Applied>Applied</Applied>
-            <Interview>Interview</Interview>
-            <Div4>80</Div4>
-            <Initiate>Initiate</Initiate>
-          </FrameDiv>
+            <Parent7>
+              <Div1>1.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Applied>Applied</Applied>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <Initiate>Initiate</Initiate>
+            </Parent7>
+            <Parent6>
+              <Div1>2.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Screened>Screened</Screened>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <DoneView3 onClick={openBackgroundCheck}>
+                <Done>{`Done, `}</Done>
+                <View>view</View>
+              </DoneView3>
+            </Parent6>
+            <Parent5>
+              <Div1>3.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Interviewed>Interviewed</Interviewed>
+              <Interview>Rejected</Interview>
+              <Div4>80</Div4>
+              <DoneView>
+                <Done>{`Done, `}</Done>
+                <View>view</View>
+              </DoneView>
+            </Parent5>
+            <Parent4>
+              <Div1>4.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Offered>Offered</Offered>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <DoneView>
+                <Done>{`Done, `}</Done>
+                <View>view</View>
+              </DoneView>
+            </Parent4>
+            <Parent3>
+              <Div1>5.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Hired>Hired</Hired>
+              <Feedback1 onClick={openFeedback}>Feedback</Feedback1>
+              <Div4>80</Div4>
+              <DoneView>
+                <Done>{`Done, `}</Done>
+                <View>view</View>
+              </DoneView>
+            </Parent3>
+            <Parent2>
+              <Div1>6.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Applied>Applied</Applied>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <Initiate>Initiate</Initiate>
+            </Parent2>
+            <Parent11>
+              <Div1>7.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Applied>Applied</Applied>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <Initiate>Initiate</Initiate>
+            </Parent11>
+            <Parent1>
+              <Div1>8.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Applied>Applied</Applied>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <Initiate>Initiate</Initiate>
+            </Parent1>
+            <Group>
+              <Div1>9.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Applied>Applied</Applied>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <Initiate>Initiate</Initiate>
+            </Group>
+            <Container>
+              <Div1>10.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Applied>Applied</Applied>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <Initiate>Initiate</Initiate>
+            </Container>
+            <FrameDiv>
+              <Div1>11.</Div1>
+              <AlbertFlores>Albert Flores</AlbertFlores>
+              <Albertfabccom>albert.f@abc.com</Albertfabccom>
+              <Div2>9783647292</Div2>
+              <Percentage>
+                <PercentageChild />
+                <PercentageItem />
+                <Div3>80%</Div3>
+              </Percentage>
+              <Applied>Applied</Applied>
+              <Interview>Interview</Interview>
+              <Div4>80</Div4>
+              <Initiate>Initiate</Initiate>
+            </FrameDiv>
           </Mainscrolldiv>
           <SNoParent>
             <SNo>S. No</SNo>
@@ -777,7 +777,6 @@ const ViewAllJobMatchCandidates = () => {
             <Div43>1</Div43>
             <Div44>2</Div44>
           </Pages>
-          
         </Main>
       </ViewAllJobMatchCandidatesRoot>
       {isFeedbackOpen && (
